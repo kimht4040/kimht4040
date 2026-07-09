@@ -1,33 +1,70 @@
-<div style="background-color: #242424; color: #eaeaea; padding: 40px; border-radius: 8px;">
+<h1 align="center">Hi 👋, I'm 김학태 (kimht4040)</h1>
+<h3 align="center">Embedded / IoT Developer from Busan, South Korea</h3>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=IoT+%26+Embedded+Systems+Developer;C%2FC%2B%2B+%7C+Python+%7C+.NET;PKNU+Student+%F0%9F%8E%93;Turrets%2C+Robot+Arms%2C+Rhythm+Games+%26+More&center=true&width=500&height=45&color=2f81f7&vCenter=true&size=22" alt="Typing SVG" />
+</p>
 
-임베디드 시스템 및 시스템 소프트웨어 엔지니어를 목표로 하는 개발자입니다. 하드웨어 제어, 로우레벨 프로그래밍, 그리고 시스템 최적화에 집중하고 있으며 C/C++ 기반의 펌웨어 제어 로직 구현과 RTOS 환경에서의 멀티태스킹 설계에 익숙합니다.
+---
 
-## 기술 스택 및 개발 환경
-* Languages: C, C++, Python, C#
-* Embedded & OS: STM32, Raspberry Pi, Arduino, Orange Pi Zero 3, Linux, Ubuntu, Yocto, WSL2
-* Tools & Libraries: CLion, PyCharm, DataGrip, CMake, OpenCV, FreeRTOS
+### 🙋‍♂️ About Me
 
-## 주요 프로젝트
+- 🎓 Studying at **PKNU (부경대학교)**, IoT Developer track
+- 📍 Based in **Busan, South Korea**
+- 🔧 Interested in **embedded systems, robotics, real-time communication, and game dev**
+- 🌱 Currently exploring **C++ system programming, .NET, and Yocto Linux**
 
-### Target Tracking System (자동 추적 터렛 시스템)
-카메라 영상으로 목표 객체를 실시간 탐지하고 STM32로 제어 명령을 전달하여 모터를 구동하는 추적 플랫폼입니다.
-* Tech: C/C++, OpenCV, STM32, FreeRTOS, CAN/UART
-* Details: HSV 색상 검출 및 칼만 필터를 적용하여 추적 위치의 흔들림을 보정했으며, FreeRTOS를 활용해 제어 로직과 입력 처리 태스크를 분리하여 안정적인 구동 환경을 구축했습니다.
+---
 
-### Conveyor Belt Sorting System (컨베이어 자동 분류 로봇팔)
-물체를 인식해 정상품과 불량품을 구분한 뒤, 로봇팔과 컨베이어 벨트를 연동해 자동으로 처리하는 시스템입니다.
-* Tech: C/C++, STM32, FreeRTOS, CAN
-* Details: 카메라 노드, 로봇팔, 벨트 제어 노드 간의 CAN 통신(500kbps)을 구축하고, 생산자-소비자 패턴의 세마포어 처리를 통해 모터 동작 비동기 제어 시스템을 구현했습니다.
+### 🛠️ Tech Stack
 
-### Osu! Rhythm Game (4-Key 리듬 게임)
-`.osu` 비트맵 파일을 파싱하여 노트 낙하 및 사용자 입력을 실시간으로 처리하는 데스크톱 리듬 게임입니다.
-* Tech: C++17, SFML 3.0, BASS, SQLite3
-* Details: SFML 3.0 표준에 맞춰 그래픽 렌더링 및 게임 상태 전환을 구현했으며, BASS 오디오 라이브러리 연동, SQLite를 이용한 로컬 사용자 최고 점수 데이터베이스 관리를 구축했습니다.
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![Linux](https://img.shields.io/badge/Yocto%2FLinux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-### IoT .NET Repository
-IoT 환경 구축 및 데스크톱 애플리케이션 연동을 위한 시스템 구현 리포지토리입니다.
-* Tech: C#, .NET, WPF
-* Details: WPF 기반의 사용자 인터페이스(UI) 설계와 컨트롤 템플릿 구성을 통해 기기 상태를 모니터링하고 제어할 수 있는 데스크톱 클라이언트를 작성했습니다.
+---
 
-</div>
+### 🚀 Featured Projects
+
+| Project | Description |
+|---|---|
+| 🎯 [target_tracking_system](https://github.com/kimht4040/target_tracking_system) | 타겟을 추적하는 터렛(turret) 제작 프로젝트 (C) |
+| 🦾 [con](https://github.com/kimht4040/con) | 컨베이어벨트 위 물체를 분류해 로봇팔로 처리하는 팀 프로젝트 (C) |
+| 🎮 [OsuRhythmGame](https://github.com/kimht4040/OsuRhythmGame) | osu 파일을 파싱하여 구현한 리듬게임 (C++) |
+| 🎙️ [tactical-voice-scrambler](https://github.com/kimht4040/tactical-voice-scrambler) | Yocto 기반 실시간 음성 비화 및 모니터링 시스템 (C++, UDP/TCP, ALSA) |
+| 🔌 [iot-dotnet-2026](https://github.com/kimht4040/iot-dotnet-2026) | IoT 개발자과정 .NET 학습 리포지토리 |
+
+---
+
+### 📚 Learning Repositories
+
+| Repository | Focus |
+|---|---|
+| [iot-basic-programming](https://github.com/kimht4040/iot-basic-programming) | 기초 프로그래밍 언어 학습 |
+| [iot-algorithm-2026](https://github.com/kimht4040/iot-algorithm-2026) | 알고리즘 학습 |
+| [iot-cpp](https://github.com/kimht4040/iot-cpp) | C++ 학습 |
+| [iot-database-2026](https://github.com/kimht4040/iot-database-2026) | 데이터베이스 수업 |
+| [iot-python-2026](https://github.com/kimht4040/iot-python-2026) | 파이썬 학습 |
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kimht4040&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimht4040&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kimht4040&theme=tokyonight&hide_border=true" alt="streak stats" />
+</p>
+
+---
+
+<p align="center">
+  ⭐ From <b>kimht4040</b> — thanks for stopping by!
+</p>
