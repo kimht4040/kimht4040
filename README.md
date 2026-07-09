@@ -3,12 +3,12 @@
 # 김학태 (Hak-tae Kim)
 ### Embedded Systems / IoT Developer
 
-📍 Busan, South Korea · 🎓 PKNU IoT Developer Track
+📍 Busan, South Korea
 
 [![GitHub](https://img.shields.io/badge/GitHub-kimht4040-181717?style=flat-square&logo=github)](https://github.com/kimht4040)
 &nbsp;
 <!-- 아래 이메일/링크드인은 본인 정보로 교체하세요 -->
-[![Email](https://img.shields.io/badge/Email-your.email%40example.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-your.email%40example.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kimht4040@naver.com)
 
 </div>
 
@@ -18,22 +18,14 @@
 
 임베디드/IoT 시스템 개발에 관심을 두고 있는 개발자입니다. 실시간 통신, 제어 시스템, 센서-액추에이터 연동을 주제로 한 프로젝트들을 진행하며 C/C++ 기반의 시스템 프로그래밍 역량을 쌓아왔습니다.
 
-- **Languages:** C, C++, Python, C#
-- **Embedded / OS:** Yocto Linux, 임베디드 리눅스 환경 빌드 및 배포
-- **통신/프로토콜:** TCP/UDP 소켓 통신, ALSA (오디오 I/O)
-- **기타:** .NET, Unity(시뮬레이션/시각화), SQL
+- **Languages:** C++ / C / C# / Python
+- **Embedded / OS:** Linux / STM32 / RTOS / UART / CAN / I2C & I2S 
+- **Framework / Database:** OpenCV / ROS2 / MySQL / SQLite / WPF 
+- **Tools & Environment:** Linux / macOS / Windows / CMake / Git / GitHub 
 
 ---
 
 ## Featured Projects
-
-### 🔒 Tactical Voice Scrambler
-**Yocto 기반 전술 통신용 실시간 음성 비화 및 C2 모니터링 시스템**
-`C++` `UDP/TCP` `ALSA` `Yocto Linux`
-
-임베디드 리눅스(Yocto) 환경에서 동작하는 실시간 음성 암호화(비화) 및 지휘통제(C2) 모니터링 시스템. 네트워크 소켓 통신과 ALSA를 이용한 저지연 오디오 처리를 직접 구현.
-
-🔗 [github.com/kimht4040/tactical-voice-scrambler](https://github.com/kimht4040/tactical-voice-scrambler)
 
 ### 🎯 Target Tracking System
 **타겟을 추적하는 터렛(turret) 제작 프로젝트**
