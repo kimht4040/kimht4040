@@ -8,7 +8,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-kimht4040-181717?style=flat-square&logo=github)](https://github.com/kimht4040)
 &nbsp;
 <!-- 아래 이메일/링크드인은 본인 정보로 교체하세요 -->
-[![Email](https://img.shields.io/badge/Email-your.email%40example.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kimht4040@naver.com)
+[![Email](https://img.shields.io/badge/Email-kimht4040@naver.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kimht4040@naver.com)
 
 </div>
 
